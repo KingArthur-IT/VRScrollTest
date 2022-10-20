@@ -1,0 +1,23 @@
+{
+  "name": "vrscrolltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c \"rollup_config.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve"
+  },
+  "author": "Artem Ostapenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "rollup": "^2.57.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "three": "^0.132.1",
+    "three-mesh-ui": "^6.0.2",
+    "tincanjs": "^0.50.0"
+  }
+}
